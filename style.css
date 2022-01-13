@@ -168,6 +168,56 @@ font-size: 14.69px;
 /*         Media queries Section        */
 /* -------------------------------------*/
 
-@media screen {
+/* ------Mobile Devices------ */
+
+@media only screen and (max-width:688px) {
+    .container{
+      width: 100%;
+    }
+    .section-title{
+      text-align: center;
+    }
+    .players{
+      grid-template-columns: repeat(1, 1fr);
+      margin-left: 10px;
+    }
+    .player , .blog , .course{
+      flex-direction: column;
+    }
+    .blogs{
+      grid-template-columns: repeat(1, 1fr);
+      margin-left: 10px;
+    }
     
+    .courses{
+      grid-template-columns: repeat(1, 1fr);
+      margin-left: 10px;
+    }
+}
+
+
+/* ------Tablet Devices------ */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    
+  .container{
+    width: 100%;
+    margin-left: 10px;
+  }
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .player{
+    margin-left: 10px;
+  }
+  .blog{
+    padding: 0px 15px 0px 0px;
+  }
+  .blog-title{
+    margin-top: 0;
+  }
+  .courses {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 25px;
+  }
 }

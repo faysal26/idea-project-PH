@@ -7,6 +7,10 @@
 /* ------------------------------------ */
 /*            Genarel Section           */
 /* ------------------------------------ */
+*{
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -163,6 +167,24 @@ font-size: 14.69px;
 .course-duration span{
     margin-left: 4px;
 }
+
+
+/* ---------------------------------------- */
+/*              Footer Section              */
+/* ---------------------------------------- */
+
+.footer-section{
+  background-color: #562eff;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: #dad8d8;
+}
+
+
+
 
 /* -------------------------------------*/
 /*         Media queries Section        */
